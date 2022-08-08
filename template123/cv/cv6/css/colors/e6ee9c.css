@@ -1,0 +1,230 @@
+#cv-top {
+    width: 100%;
+    height: 341px;
+    background-image: url(hd1_01.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+.all{
+    float: left;
+    clear: both;
+    width: 100%;
+  background: url(main1_02.png)no-repeat;
+  background-size: 100% 100%;
+  
+}
+#cv-top h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 32px;
+  font-family: "Roboto";
+  line-height: 35px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  color: #aeea00;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+  float: left;
+  padding-bottom: 5px;
+}
+#cv-top h2 {
+  margin: 0;
+  padding: 0;
+  text-transform: unset;
+  width: 100%;
+  font-weight: unset;
+  font-size: 20px;
+  color: #aeea00;
+  text-align: center;
+  padding-top: 5px;
+  float: left;
+}
+#cv-content #block01 h3{
+color: #382425;
+text-transform: unset;
+font-weight: bold;
+}
+#cv-content #block02 h3{
+color: #382425;
+text-transform: unset;
+font-weight: bold;
+}
+#cvo-profile .box-dm{
+width: 319px;
+height: 303px;
+padding: 0;
+margin: 0;
+float: left;
+display: table;
+background: url(anh1.png)no-repeat;
+background-size: 100% 100%;
+clear: both;
+z-index: 1;
+margin-top: -287px;
+position: absolute;
+}
+.bar-exp div {
+    float: left;
+    height: 10px;
+    background: #aeea00;
+  background-position:right;
+    margin-top: 0px;
+  border-radius: 10px;
+}
+.bar-exp {
+
+    background:#e6ee9c;
+  background-size: 100% 100%;
+    height: 10px;
+    float: left;
+    margin-bottom: 0px;
+    padding: 0px;
+    float: left;
+    width: 100%;
+  border-radius: 10px;
+}
+#form-cv .icf1 {
+    float: left;
+    margin-bottom: 0;
+    width: 25px;
+    line-height: 25px;
+    height:25px;
+    text-align: left;
+    background: url(icon1_03.png)no-repeat;
+    background-position: left;
+    background-size: 100% 100%;
+}
+#form-cv .icf2 {
+    float: left;
+    margin-bottom: 0;
+    width: 25px;
+    line-height: 25px;
+    height:25px;
+    text-align: left;
+    background: url(icon1_07.png)no-repeat;
+    background-position: left;
+    background-size: 100% 100%;
+}
+#form-cv .icf3 {
+    float: left;
+    margin-bottom: 0;
+    width: 25px;
+    line-height: 25px;
+    height:25px;
+    text-align: left;
+    background: url(icon1_11.png)no-repeat;
+    background-position: left;
+    background-size: 100% 100%;
+}
+#form-cv .icf4 {
+    float: left;
+    margin-bottom: 0;
+    width: 25px;
+    line-height: 16px;
+    height:16px;
+    text-align: left;
+    background: url(icon1_14.png)no-repeat;
+    background-position: left;
+    background-size: 100% 100%;
+}
+#form-cv .icf5 {
+    float: left;
+    margin-bottom: 0;
+    width: 25px;
+    line-height: 25px;
+    height:25px;
+    text-align: left;
+    background: url(icon1_17.png)no-repeat;
+    background-position: left;
+    background-size: 100% 100%;
+}
+.tt-box1 {
+    padding: 0;
+    margin: 0 auto;
+    height: 40px;
+    width: 100%;
+    float: left;
+    line-height: 40px;
+  background: url(t1_03.png)no-repeat left;
+  background-size: 100% 100%;
+  color: #382425;
+}
+.ski {
+    padding: 0;
+    margin: 0 auto;
+    height: 40px;
+    width: 100%;
+    float: left;
+    line-height: 40px;
+  background: url(t1_10.png)no-repeat left;
+  background-size: 100% 100%;
+  color: #382425;
+}
+.cum {
+    padding: 0;
+    margin: 0 auto;
+    height: 40px;
+    width: 100%;
+    float: left;
+    line-height: 40px;
+  color: #382425;
+}
+.footer {
+    
+    background:url(ft1_02.png)no-repeat;
+    background-size: 100% 100%;
+    height:268px; 
+    float: left;
+    width: 100%;
+}
+#block01{
+  background: url(bg1_05.png)no-repeat;
+  background-position: right;
+}
+#block02{
+  background: url(bg1_09.png)no-repeat;
+  background-position: right top;
+}
+#box01{
+    background: url(bg1_02.png)no-repeat;
+background-position: right;
+}
+#box02 .cum{
+background: url(t1_06.png)no-repeat left;
+background-size: 100% 100%;
+}
+#box04 .cum{
+background: url(t1_13.png)no-repeat left;
+background-size: 100% 100%;
+}
+#box05 .cum{
+background: url(t1_15.png)no-repeat left;
+background-size: 100% 100%;
+}
+  #box06 .cum{
+background: url(t1_17.png)no-repeat left;
+background-size: 100% 100%;
+}
+  #box07 .cum{
+background: url(t1_19.png)no-repeat left;
+background-size: 100% 100%;
+}
+#block01 .head{
+background: url(tt1_03.png)no-repeat left;
+background-size: 100% 100%;
+}  #block02 .head{
+background: url(tt1_07.png)no-repeat left;
+background-size: 100% 100%;
+}  #block03 .head{
+background: url(tt1_10.png)no-repeat left;
+background-size: 100% 100%;
+}  #block04 .head{
+background: url(tt1_12.png)no-repeat left;
+background-size: 100% 100%;
+}  #block05 .head{
+background: url(tt1_14.png)no-repeat left;
+background-size: 100% 100%;
+}

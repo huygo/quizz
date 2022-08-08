@@ -1,0 +1,31 @@
+#cv-right h3, #cv-content .head{
+	background: #9e0b0f;
+	border-left: 18px solid #007236
+}
+#cv-top h1{
+	color:#9e0b0f;
+}
+.bar-exp{
+	border: 1px solid #9e0b0f
+}
+.bar-exp div{
+	background: #9e0b0f
+}
+#sortable .cvi-date{
+	background: url('fa-1-9e0b0f.png') left center no-repeat;	
+}
+#sortable .cvi-user{
+	background: url('fa-2-9e0b0f.png') left center no-repeat;	
+}
+#sortable .cvi-phone{
+	background: url('fa-3-9e0b0f.png') left center no-repeat;	
+}
+#sortable .cvi-envelope-square{
+	background: url('fa-4-9e0b0f.png') left center no-repeat;	
+}
+#sortable .cvi-map-marker{
+	background: url('fa-5-9e0b0f.png') left center no-repeat;	
+}
+#sortable .cvi-info{
+	background: url('fa-6-9e0b0f.png') left center no-repeat;	
+}

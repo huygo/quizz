@@ -1,0 +1,164 @@
+#cv-top {
+    width: 100%;
+    height: 452px;
+    background-image: url(hd3.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.all {
+    float: left;
+    clear: both;
+    width: 100%;
+    background-image: url(bd3.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.exp-fake {
+    float: left;
+    width: 100%;
+    height: 25px;
+    margin-top: -20px;
+    z-index: 1;
+	background: url(skill2.png)no-repeat;
+    background-size: 100% 100%;
+}
+.box-dm {
+    width: 230px;
+    height: 230px;
+    padding: 0;
+    margin: 0;
+    float: left;
+    display: table;
+    background: url(ava2.png)no-repeat;
+    background-size: 100% 100%;
+    clear: both;
+    z-index: 1;
+	margin-top: -220px;
+    margin-left: 43px;
+    top: -900px;
+    position: absolute;
+}
+div#block01{
+	background: url(icon_02.png)no-repeat;
+	background-position: right;
+	background-size: 6% 100%;
+	z-index: 1;
+}
+div#block02{
+	background: url(icon_06.png)no-repeat;
+	background-position: right;
+	background-size: 6% 100%;
+	z-index: 1;
+}
+div#block03{
+	background: url(icon_12.png)no-repeat;
+	background-position: right;
+	background-size: 6% 100%;
+	z-index: 1;
+}
+div#block04{
+	background: url(icon_15.png)no-repeat;
+	background-position: right;
+	background-size: 6% 100%;
+	z-index: 1;
+}
+div#block05{
+	background: url(icon_18.png)no-repeat;
+	background-position: right;
+	background-size: 6% 100%;
+	z-index: 1;
+}
+#block01 h3{
+	background: url(icon_09.png)no-repeat;
+	background-position: left;
+	background-size: 4%;
+    padding-left: 30px;
+	z-index: 1;
+}
+#block01 p.h3{
+	border-left: 4px solid #c42329;
+	padding-left: 19px;
+    margin-left: 7px;
+}
+#block01 .exp-content{
+	border-left: 4px solid #c42329;
+	padding-left: 19px;
+    margin-left: 7px;
+}
+#block02 h3{
+	background: url(icon_09.png)no-repeat;
+	background-position: left;
+	background-size: 4%;
+    padding-left: 30px;
+	z-index: 1;
+}
+#block02 p.h3{
+	border-left: 4px dotted #c42329;
+	padding-left: 19px;
+    margin-left: 7px;
+}
+#block02 .exp-content{
+	border-left: 4px dotted #c42329;
+	padding-left: 19px;
+    margin-left: 7px;
+}
+
+
+#block01 .head{
+	background: url(icon_04.png)no-repeat;
+	background-position: right;
+	background-size: 120%;
+	z-index: 1;
+}
+#block02 .head{
+	background: url(icon_07.png)no-repeat;
+	background-position: right;
+	background-size: 100%;
+	z-index: 1;
+}
+#block03 .head{
+	background: url(icon_13.png)no-repeat;
+	background-position: right;
+	background-size: 100%;
+	z-index: 1;
+}
+#block04 .head{
+	background: url(icon_16.png)no-repeat;
+	background-position: right;
+	background-size: 100%;
+	z-index: 1;
+}
+#block05 .head{
+	background: url(icon_19.png)no-repeat;
+	background-position: right;
+	background-size: 100%;
+	z-index: 1;
+}
+#cv-right h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 0 5px 0;
+    line-height: 24px;
+	color: #fff;
+	background: url(bar4.png)no-repeat;
+	background-size: 100%;
+	background-position: center;
+}
+#cv-right #box07  h3{
+	background: url(bar5.png)no-repeat;
+	background-size: 100%;
+	background-position: center;
+}
+#cv-right #box01  h3{
+	background: url(bar5.png)no-repeat;
+	background-size: 100%;
+	background-position: center;
+}#cv-right #box02  h3{
+	background: url(bar5.png)no-repeat;
+	background-size: 100%;
+	background-position: center;
+}

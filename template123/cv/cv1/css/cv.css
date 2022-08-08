@@ -1,0 +1,208 @@
+#form-cv{
+	background:#fff;
+	outline: solid 1px #e1e1e1;
+	padding:30px 20px;
+	position: relative;
+	font-size: 14px;
+	line-height: 24px;
+	color:#434748;		
+}
+#form-cv p{
+	margin-top: 0;
+	margin-bottom: 6px
+}
+#sortable .cvo-block{
+	margin-bottom: 30px;
+	margin-top: 8px;	
+	padding:0;
+}
+
+#cv-top{		
+    text-align: center;           
+}
+#cvo-profile{	
+	display: block;
+}
+#cv-content{
+	width: 60%;
+	float: right;
+	position: relative;		
+	min-height: 1100px;
+}
+#cv-main{
+	width: 38%;
+	min-height: 1100px;
+	float: left;	
+	position: relative;	
+	background: #fff;	
+}
+#cv-right .ir{
+	padding: 10px 10px 0px 10px;
+}
+p.skill-name{
+	float: left;
+	width: 100%
+}
+p.skill-name input{
+	color: #fff!important;
+}
+/*
+fuck
+#cv-right .cvo-block span{
+	color: #ccc;
+}*/
+#cv-right .ctbx {
+	padding: 0;
+	margin:0;
+	border:0;
+}
+.skill{
+	margin-top: 15px
+}
+#cv-content h3{
+	font-size:15px;
+	font-weight: bold;
+}
+#cv-top h1{
+	font-size: 26px;
+    padding: 15px 5px 5px 5px;
+    line-height: normal;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 0px;    
+    margin-left: 0px;
+    color: #0c3242;
+    margin-top: 0;
+    font-weight: bold	
+}
+
+
+#cv-top h1 span{
+	padding: 0px 10px;
+}
+
+#cv-top h2{
+	font-size: 16px;
+	margin-top: 0;
+	font-weight: bold;
+    text-align: center;        
+    color: #434748    
+}
+.box-01 p{		
+    overflow: hidden;
+}
+
+#cv-content p{
+	margin-bottom: 5px
+}
+#cv-content .ir{
+	margin:0 10px;
+}
+#cv-content .ir a{
+	color: #2ebb2f
+}
+#cv-right h3, #cv-content .head{
+	font-size: 16px;        
+    text-transform: uppercase;
+    font-weight: bold;
+    color:#fff;
+    text-align: center;        
+    margin: 0 0 15px;    
+    line-height: 24px;
+    padding:5px 10px 6px 0px;    
+    background: #193344;
+    border-left: 18px solid #df4829
+}
+
+#form-cv #cv-content .cvo-block {   
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 0
+}
+.ctbx{
+	padding-left: 10px;
+	padding-right: 10px
+}
+
+#cv-content span{
+	display: inline-block;	
+	z-index: 9999;
+}
+.bar-value-exp input[type="text"]{
+	color:#252525;
+}
+.ctbx{
+	margin-bottom: 20px;
+	position: relative;
+}
+.ctbx:hover {
+	box-shadow: 0 0 1px #999;
+}
+.ctbx:hover .fieldgroup_controls{
+	display: block;
+}
+[cvo-form-field] {
+    cursor: text;
+}
+
+#cvo-profile-avatar-wraper{	    
+    display: table;
+    width:150px;        
+    margin:auto;
+}
+#cvo-profile-avatar-wraper img{
+	width: 150px;  	
+  	height: 150px;
+  	float:none;  
+  	display: inline-block;
+}
+#line-seperate {
+    height: 25px;    
+}
+.bar-exp div {
+    float: left;
+    height: 8px;    
+    background: #193344
+}
+.bar-exp {	
+  	border:1px solid #193344;
+  	background: #e1e1e1;  	
+  	height: 8px;
+  	float: right;  	
+}      
+.icoweb label{
+	display: block;
+	color:#fff;
+}
+.box-contact{
+	font-size: 15px;
+}
+#sortable .icoweb{
+	padding-left: 24px;
+	line-height: 32px;	
+	margin-bottom: 0
+}
+#sortable .cvi-date{
+	background: url('fa-1.png') left center no-repeat;	
+}
+#sortable .cvi-user{
+	background: url('fa-2.png') left center no-repeat;	
+}
+#sortable .cvi-phone{
+	background: url('fa-3.png') left center no-repeat;	
+}
+#sortable .cvi-envelope-square{
+	background: url('fa-4.png') left center no-repeat;	
+}
+#sortable .cvi-map-marker{
+	background: url('fa-5.png') left center no-repeat;	
+}
+#sortable .cvi-info{
+	background: url('fa-6.png') left center no-repeat;	
+}
+#box02 span, #box032 span, #box04 span, #box05 span, #box06 span, #box07 span {
+    width: 260px;
+}
+div#box01 span {
+    width: 230px;
+}

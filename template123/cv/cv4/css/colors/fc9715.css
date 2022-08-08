@@ -1,0 +1,42 @@
+#cv-top {
+    width: 100%;
+    height: 452px;
+    background-image: url(hd3.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.all {
+    float: left;
+    clear: both;
+    width: 100%;
+    background-image: url(bd3.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.exp-fake {
+    float: left;
+    width: 100%;
+    height: 25px;
+    margin-top: -20px;
+    z-index: 1;
+	background: url(skill2.png)no-repeat;
+    background-size: 100% 100%;
+}
+.box-dm {
+    width: 230px;
+    height: 230px;
+    padding: 0;
+    margin: 0;
+    float: left;
+    display: table;
+    background: url(ava2.png)no-repeat;
+    background-size: 100% 100%;
+    clear: both;
+    z-index: 1;
+	margin-top: -220px;
+    margin-left: 43px;
+    top: -900px;
+    position: absolute;
+}

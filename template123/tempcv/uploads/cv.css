@@ -1,0 +1,755 @@
+#form-cv {
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    float: left;
+    position: relative;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000;
+}
+.watermark {
+    float: left;
+    width: 100%;
+    height: 22px;
+    color: #999;
+    text-align: right;
+    padding-right: 22px;
+    font-size: 15px;
+    font-family: Courier;
+    background: #fff;
+}
+
+/*#sortable .cvo-block {
+    margin-bottom: 15px;
+    margin-top: 8px;
+    border: 1px solid #24400e;
+    padding: 0;
+    padding-bottom: 15px;
+}*/
+
+#sortable .cvo-block .box-content {
+    margin: 0;
+    width: 100%;
+    border-radius: 10px;
+    color: #000;
+    padding-bottom: 15px;
+    text-align: justify;
+}
+
+.exp.content-edit.skill {
+    border-radius: 10px;
+}
+
+#cvo-profile {
+    display: block;
+}
+
+#cv-content {
+    width: 40%;
+    text-align: justify;
+    float: right;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    margin-right: 70px;
+}
+
+#cv-main {
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    float: left;
+    width: 40%;
+    margin-left: 70px;
+}
+
+#cv-right .ir {
+    padding: 0;
+    margin: 0;
+}
+
+#cv-main #cv-right {
+    padding: 0;
+    margin: 0;
+}
+
+#cv-main #cv-right .ir #sortable {
+    padding: 0;
+    margin: 0;
+}
+
+#cv-right .ir #sortable .block {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+    float: left;
+}
+
+p.skill-name input {
+    color: #fff !important;
+}
+
+#cv-right #box03 .ctbx {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    float: left;
+}
+
+#cv-top {
+    width: 100%;
+    height: 300px;
+    background-image: url(https://timviec365.vn/cv365/upload/cv/thiet-ke-chuyen-nghiep/cv-du-lich-11/css/hd1.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.all {
+    float: left;
+    clear: both;
+    width: 100%;
+    background-image: url(https://timviec365.vn/cv365/upload/cv/thiet-ke-chuyen-nghiep/cv-du-lich-11/css/bd1.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#cv-top h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 40px;
+    font-family: "Roboto";
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    color: #000;
+    font-weight: bold;
+    text-align: left;
+    width: 98%;
+    float: left;
+}
+
+#cv-top h1 span {
+    letter-spacing: 1px;
+}
+
+#box-hvt {
+    float: right;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    padding-top: 110px;
+    margin-right: 65px;
+}
+
+#sortable #box01 {
+    margin-top: 0;
+    margin-bottom: 0px;
+    padding: 0;
+    padding-bottom: 20px;
+}
+
+#sortable #box01 #prof {
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+#box01 ul {
+    list-style: none;
+    padding-left: 20px
+}
+
+#cv-right .cvo-block .head div {
+    color: #fff;
+}
+
+.innertext {
+    margin: 0px;
+    padding: 0px;
+    width: 29%;
+    float: left;
+    color: white;
+}
+
+#cv-top h2 {
+    text-transform: uppercase;
+    width: 100%;
+    font-size: 20px;
+    font-family: "Roboto";
+    background-color: #ffbc45;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    float: left;
+    margin-bottom: 0;
+    color: #fff;
+    height: 35px;
+    line-height: 35px;
+}
+
+.box-01 p {
+    overflow: hidden;
+}
+
+#cv-content p {
+    margin-bottom: 5px
+}
+
+#cv-content .ir a {
+    color: #2ebb2f
+}
+
+#cv-right h3,
+#cv-content .head {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+    text-align: left;
+    line-height: 20px;
+    padding-top: 0px;
+}
+
+#cv-content h3 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+}
+
+#block01 h3 {
+    background-color: #ffbc45;
+}
+
+#block02 h3 {
+    background-color: #ffbc45;
+}
+
+
+/*#cv-content #block02 .exp-content{
+  margin: 0;
+  padding: 0;
+  padding-left: 10px;
+}
+#cv-content #block03 h3{
+  font-weight: bold;
+}
+#cv-content #block04 h3 {
+  font-weight: bold;
+}
+*/
+
+#cv-content .exp-date {
+    float: none;
+}
+
+#cv-content #block01 .exp-date {
+    display: none;
+}
+
+#cv-content #block03 .exp-date {
+    display: none;
+}
+
+#cv-content #block04 .exp-date {
+    display: none;
+}
+
+#cv-content #block05 .exp-date {
+    display: none;
+}
+
+#cv-content p.h3 {
+    margin: 0px;
+    padding: 0px;
+}
+
+#cv-content .cvo-block {
+    padding: 0 !important;
+    float: left;
+    width: 100%;
+}
+
+#cv-content .ir .cvo-block {
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.ctbx {
+    padding-left: 10px;
+    padding-right: 10px
+}
+
+#cv-content span {
+    display: inline-block;
+    z-index: 9999;
+}
+
+#cv-content #block02 h3 {
+    font-weight: bold;
+}
+
+.ctbx {
+    margin-bottom: 10px;
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+}
+
+.ctbx:hover {
+    box-shadow: 0 0 1px #999;
+}
+
+.ctbx:hover .fieldgroup_controls {
+    display: block;
+}
+
+[cvo-form-field] {
+    cursor: text;
+}
+
+#cvo-profile-avatar-wraper {
+    width: 27%;
+    /*
+    height: 200px;*/
+    padding: 0;
+    margin: 0;
+    float: left;
+    display: table;
+    padding-top: 94px;
+    padding-left: 109px;
+}
+
+#cvo-profile-avatar-wraper .wimg {
+    width: 175px;
+    height: 175px;
+    float: left;
+    display: unset !important;
+}
+
+#cvo-profile-avatar-wraper img {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    float: none;
+}
+
+.box-dm {
+    width: 207px;
+    height: 207px;
+    clear: both;
+    z-index: 1;
+    padding: 0;
+    margin: 0;
+    display: table;
+    position: absolute;
+    float: left;
+    background: url(https://timviec365.vn/cv365/upload/cv/thiet-ke-chuyen-nghiep/cv-du-lich-11/css/ava1.png)no-repeat;
+    background-size: 100% 100%;
+    margin-top: -188px;
+    margin-left: -17px;
+    top: -900px;
+}
+
+#cvo-profile-avatar {
+    width: 170px;
+    height: 170px;
+}
+
+.box-01 {
+    float: left;
+    width: 100%;
+    height: 280px;
+}
+
+#cvo-profile {
+    display: block;
+    float: left;
+    width: 100%;
+    height: 280px;
+}
+
+#line-seperate {
+    height: 25px;
+}
+
+.bar-exp div {
+    float: left;
+    height: 12px;
+    background: #ffbc45;
+    margin-top: 0px;
+    /*
+    border-radius: 5px;*/
+}
+
+.ctbx .skill-name {
+    margin: 0px;
+    padding: 0px;
+    color: #000;
+}
+
+.bar-exp {
+    background: #ffdc9d;
+    height: 12px;
+    float: none;
+    margin-top: 3px;
+    margin-bottom: 0px;
+    padding: 0px;
+    /*
+    border: 1px solid #208099;*/
+    /*
+    border-radius: 5px;*/
+}
+
+.bar-value-exp {
+    width: 100%
+}
+
+.bar-value-exp input[type="text"] {
+    color: #999;
+    width: 95%
+}
+
+.icoweb label {
+    display: block;
+}
+
+
+/*#sortable .icoweb {
+  width: 87%;
+  height: 30px;
+  line-height: 30px;
+  float: right;
+  padding-left: 5px;
+  margin-bottom: 0;
+  color: #fff;
+}*/
+
+#cv-right .block {
+    position: relative !important;
+    padding: 0;
+    margin: 0;
+}
+
+.ic .icoweb {
+    width: 85%;
+    text-align: left;
+    padding-left: 5px;
+    float: left;
+}
+
+.ic {
+    width: 100%;
+    float: left;
+    color: #000;
+}
+
+#prof span {
+    width: 270px;
+}
+
+#prof [contentEditable=true] {
+    width: 270px;
+    float: left;
+}
+
+#prof .icoweb,
+#prof .icoweb span {
+    height: auto;
+    padding-top: 2px;
+}
+
+#sortable .ic {
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+#form-cv .icf {
+    float: left;
+    border-radius: 5px;
+    line-height: 30px;
+    margin-bottom: 0;
+    width: 28px;
+    text-align: center;
+    background: #ffbc45;
+}
+
+.icf .fa {
+    font-size: 20px;
+    color: #fff;
+    margin-top: 0;
+    float: none;
+}
+
+.container {
+    width: 100%;
+}
+
+.sum {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 30px;
+}
+
+#cv-right .block {
+    margin-bottom: 10px;
+    position: relative;
+    padding: 0;
+    padding-bottom: 20px;
+}
+
+#cv-content .head {
+    padding: 0;
+    margin: 0;
+    height: 40px;
+    line-height: 40px;
+    text-align: left;
+    width: 100%;
+}
+
+#experience-table .ctbx {}
+
+.ifo {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 30px;
+}
+
+#cv-right h3 {
+    width: 100%;
+    height: 30px;
+    margin: 0;
+    color: #ffffff;
+    padding: 0;
+    float: left;
+    line-height: 30px;
+    text-align: center;
+    background: #b82731;
+}
+
+#cv-content .head #cvo-experience-blocktitle {
+    color: #000;
+    float: right;
+    width: 100%;
+    text-align: left;
+}
+
+#experience-table #exp2 {
+    margin-top: 10px;
+}
+
+#block02 #experience-table .ctbx {
+    padding-left: 10px;
+}
+
+#block01 #experience-table .ctbx {
+    padding-left: 10px;
+}
+
+#block03 #experience-table .ctbx {
+    padding-left: 10px;
+}
+
+#block04 #experience-table .ctbx {
+    padding-left: 10px;
+}
+
+#block05 #experience-table .ctbx {
+    padding-left: 10px;
+}
+
+#exp1 .exp-content {}
+
+
+/*#icon{
+    width: 30px;
+    height: 30px;
+    background: url(icon1.png)no-repeat;
+    float: left;
+    border-bottom: 2px solid #fff;
+}*/
+
+#bg {
+    background: #F58284;
+    text-align: left;
+}
+
+
+/*#prof {
+    padding: 5px 35px;
+    width: 90%;
+    background: url(bg-it.png);
+    background-repeat: no-repeat;
+    background-size: auto 80%;
+    background-position-y: center;
+}*/
+
+
+/*.cumicc1 {
+    width: 78px;
+    height: 42px;
+    float: left;
+    background: url(ic_06.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.cumicc2 {
+    width: 78px;
+    height: 42px;
+    float: left;
+    background: url(ic_14.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.cumicc3 {
+    width: 78px;
+    height: 42px;
+    float: left;
+    background: url(ic_17.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.cumicc4 {
+    width: 78px;
+    height: 42px;
+    float: left;
+    background: url(ic_24.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.cumicc5 {
+    width: 78px;
+    height: 42px;
+    float: left;
+    background: url(ic_28.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.cumicc6 {
+    width: 78px;
+    height: 42px;
+    float: left;
+    background: url(ic_32.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.cumicc7 {
+    width: 78px;
+    height: 42px;
+    float: left;
+    background: url(ic_37.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}*/
+
+div#experience-table {
+    margin: 0px;
+    width: 100%;
+    float: left;
+    text-align: justify;
+}
+
+.tt-box1 {
+    height: 40px;
+    width: 100%;
+    line-height: 40px;
+}
+
+div#cv-boxtitle {
+    font-size: 19px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000;
+    float: left;
+    width: 100%;
+    text-align: left;
+}
+
+.ski {
+    padding: 0;
+    margin: 0;
+    height: 40px;
+    width: 100%;
+    line-height: 40px;
+}
+
+.cum {
+    padding: 0;
+    margin: 0;
+    height: 40px;
+    width: 100%;
+    line-height: 40px;
+}
+
+
+/* .icright1 {
+    width: 40px;
+    height: 40px;
+    float: left;
+    background: url(ic_03.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: none;
+  }
+.icright2 {
+    width: 40px;
+    height:40px;
+    float: left;
+    background: url(ic_11.png);
+    background-position: center;
+    background-repeat: no-repeat;display: none;
+}
+.icright3 {
+    width: 40px;
+    height:40px;
+    float: left;
+    background: url(ic_21.png);
+    background-position: center;
+    background-repeat: no-repeat;display: none;
+}
+.icright4 {
+    width: 40px;
+    height:40px;
+    float: left;
+    background: url(ic_27.png);
+    background-position: center;
+    background-repeat: no-repeat;display: none;
+}
+.icright5 {
+    width: 40px;
+    height:40px;
+    float: left;
+    background: url(ic_35.png);
+    background-position: center;
+    background-repeat: no-repeat;display: none;
+}
+ */
+
+.footer {
+    background: url(https://timviec365.vn/cv365/upload/cv/thiet-ke-chuyen-nghiep/cv-du-lich-11/css/ft1.png)no-repeat;
+    background-size: 100% 100%;
+    float: left;
+    height: 66px;
+    width: 100%;
+}
+
+div#sort_block {
+    padding: 0;
+    margin: 0;
+}
+
+.cvo-block .blockControls {
+    margin: 0px;
+    padding: 0px;
+}

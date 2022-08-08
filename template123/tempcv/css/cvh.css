@@ -1,0 +1,1043 @@
+@page {
+    size: A4;
+    margin: 0;
+    padding: 0
+}
+
+#cvo-profile-avatar-wraper img {
+    display: table!important
+}
+
+b {
+    font-weight: 700
+}
+
+.hide-scrollbar {
+    overflow: -moz-hidden-unscrollable;
+    overflow: hidden
+}
+
+#cvo-document-root {
+    margin: 0 auto;
+    padding: 0;
+    font-size: 12pt;
+    position: relative
+}
+
+.cvo-form {
+    display: none
+}
+
+#sortable .ic {
+    margin-bottom: 8px
+}
+
+.cvo-document {
+    width: 100%
+}
+
+.cvo-document .cvo-page {
+    width: 210mm;
+    min-height: 260mm;
+    padding: 20mm;
+    margin: 0 auto;
+    box-shadow: 0 0 1px rgba(0,0,0,.25);
+    background-color: #fff
+}
+
+.cvo-document .cvo-subpage {
+    padding: 5mm;
+    min-height: 200mm
+}
+
+.saveBtns {
+    text-align: center
+}
+
+.tmpAbsoluteHidden {
+    position: absolute;
+    top: -1 e4cm
+}
+
+[cvo-form-field] {
+    cursor: text
+}
+
+[cvo-form-field][type=rate] {
+    cursor: pointer
+}
+
+[cvo-form-field]:hover {
+    outline: 1pt dashed #77a5cc
+}
+
+[cvo-form-field].disabled {
+    outline: 0;
+    cursor: default;
+    background-color: #eee
+}
+
+[cvo-form-fieldgroup].disabled {
+    background-color: #eee
+}
+
+[cvo-form-field].disabled,[cvo-form-fieldgroup].disabled {
+    color: transparent;
+    text-shadow: 0 0 3px rgba(0,0,0,.6)
+}
+
+[cvo-form-fieldgroup].disabled::after {
+    content: "TiÃªu Ä‘á» phÃ­a trÃªn vÃ  ná»™i dung má»¥c nÃ y sáº½ khÃ´ng hiá»ƒn thá»‹ trong CV cá»§a báº¡n. Báº¥m ThÃªm má»¥c Ä‘á»ƒ hiá»ƒn thá»‹.";
+    background-color: #1abc9c;
+    text-shadow: none;
+    color: #fff;
+    display: block;
+    padding: 3px
+}
+
+[cvo-form-field][type=text]:focus {
+    cursor: text
+}
+
+[type=fieldgroup]:hover {
+    position: relative;
+    box-shadow: 0 0 1px #999
+}
+
+#fieldgroup_controls {
+    display: none
+}
+
+.fieldgroup_controls {
+    text-align: right;
+    position: absolute;
+    display: none;
+    top: -34px;
+    right: 0;
+    text-shadow: none;
+    min-width: 200px;
+    font-family: arial,sans-serif;
+    z-index: 998
+}
+
+.fieldgroup_controls * {
+    text-shadow: none
+}
+
+.fieldgroup_controls .clone,.fieldgroup_controls .down,.fieldgroup_controls .edit,.fieldgroup_controls .remove,.fieldgroup_controls .save,.fieldgroup_controls .suggest-control,.fieldgroup_controls .up {
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 700;
+    margin: 0 auto;
+    line-height: 14px;
+    font-size: 11px;
+    width: 50px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px
+}
+
+.fieldgroup_controls .suggest-control {
+    background-color: #333
+}
+
+.fieldgroup_controls .suggest-control:hover {
+    background-color: #666
+}
+
+.fieldgroup_controls .clone {
+    font-size: 11px;
+    background-color: #3cb371;
+    width: 55px
+}
+
+.fieldgroup_controls .edit {
+    font-size: 11px;
+    background-color: #b3a329;
+    width: 55px
+}
+
+.fieldgroup_controls .save {
+    font-size: 11px;
+    background-color: #00b30d;
+    width: 55px
+}
+
+.fieldgroup_controls .clone:hover {
+    background-color: green
+}
+
+.fieldgroup_controls .remove {
+    background-color: #f15c4c;
+    font-size: 11px;
+    width: 65px
+}
+
+.fieldgroup_controls .remove:hover {
+    background-color: red
+}
+
+.fieldgroup_controls .down,.fieldgroup_controls .up {
+    width: 20px;
+    background-color: #fcfcfc;
+    color: #666;
+    border: 1px solid #999
+}
+
+.fieldgroup_controls .down:hover,.fieldgroup_controls .up:hover {
+    color: #18b18f;
+    border: 1px solid #18b18f
+}
+
+img[cvo-form-field][type=image]:hover {
+    outline: 1px dashed #77a5cc;
+    cursor: pointer
+}
+
+.default_min_width {
+    min-width: 25pt
+}
+
+[contentEditable=true] {
+    min-height: 1em;
+    display: inline-block;
+    position: relative;
+    min-width: 25pt
+}
+
+[contenteditable=true]:empty:before {
+    content: attr(cvo-placeholder);
+    color: #9197a3;
+    font-weight: 100;
+    padding: 3px
+}
+
+.cvoInvalidate {
+    outline: 1px dashed #fc4b08;
+    color: red
+}
+
+.cvoInvalidate:hover:after {
+    font-family: helvetica neue,Helvetica,Arial,sans-serif;
+    content: attr(error-tooltip);
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    margin-bottom: 3px;
+    right: 0;
+    width: 180px;
+    background-color: rgba(251,88,88,.86);
+    font-size: 11px;
+    line-height: 1.6em;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: none;
+    text-align: center;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px
+}
+
+#cv-title {
+    padding: 5px 0;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 8px;
+    font-size: 20px
+}
+
+#cv-title[contenteditable] {
+    outline: 1px dashed #ccc
+}
+
+.cvo-block:hover {
+    box-shadow: 0 0 0 2px #ccc inset;
+    border-radius: 0 4px 4px 4px;
+    -moz-border-radius: 0 4px 4px 4px;
+    -webkit-border-radius: 0 4px 4px 4px
+}
+
+.cvo-block:hover .blockControls {
+    display: block
+}
+
+#blockControls {
+    display: none
+}
+
+.cvo-block .blockControls {
+    font-family: arial,sans-serif;
+    position: absolute;
+    z-index: 998;
+    height: 36px;
+    top: -36px;
+    left: 0;
+    text-align: center;
+    padding: 0 8px;
+    text-shadow: none;
+    display: none;
+    background-color: #ccc;
+    opacity: 1;
+    border-radius: 4px 4px 0 0;
+    -moz-border-radius: 4px 4px 0 0;
+    -webkit-border-radius: 4px 4px 0 0
+}
+
+.cvo-block .blockControls * {
+    text-shadow: none
+}
+
+.cvo-block .blockControls .down,.cvo-block .blockControls .hide,.cvo-block .blockControls .show-layout-editor,.cvo-block .blockControls .up {
+    font-family: tahoma;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 700;
+    margin: 0 auto;
+    line-height: 14px;
+    font-size: 12px;
+    width: 50px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 6px
+}
+
+.cvo-block .blockControls .hide {
+    background-color: #f15c4c;
+    width: 90px
+}
+
+.cvo-block .blockControls .hide:hover {
+    background-color: red
+}
+
+.cvo-block .blockControls .down,.cvo-block .blockControls .show-layout-editor,.cvo-block .blockControls .up {
+    width: 23px;
+    background-color: #fcfcfc;
+    color: #666
+}
+
+.cvo-block .blockControls .down:hover,.cvo-block .blockControls .show-layout-editor:hover,.cvo-block .blockControls .up:hover {
+    color: #18b18f
+}
+
+.paging-separator {
+    position: absolute;
+    width: 1px;
+    transition: all .3s ease;
+    border-bottom: 1px dashed transparent;
+    z-index: 1024
+}
+
+.paging-separator:hover {
+    border-bottom: 1px dashed #1fbc89
+}
+
+.paging-arrow {
+    width: 52px;
+    height: 20px;
+    background-color: #02b5e1;
+    color: #fff;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    margin-left: -54px;
+    margin-bottom: -10px;
+    cursor: default;
+    transition: all .3s ease;
+    border-radius: 3px;
+}
+
+.select2-container {
+    font-size: 12px
+}
+
+.select2-container--default .select2-selection--single {
+    border-radius: 0;
+    border-color: #e3e3e3
+}
+
+.select2-dropdown {
+    border-color: #e3e3e3
+}
+
+.select2-container--default .select2-results>.select2-results__options {
+    font-size: 12px
+}
+
+.edit-content[contenteditable=true] {
+    display: block
+}
+
+.edit-content .bar-exp div {
+    text-indent: 1px
+}
+
+.bar-exp div {
+    text-indent: -9999px
+}
+
+.edit-content .bar-exp {
+    display: none
+}
+
+.exp .ctbx {
+    display: table;
+    width: 100%;
+    position: relative
+}
+
+#experience-table .ctbx {
+    position: relative
+}
+
+.edit-content .bar-value-exp {
+    display: block
+}
+
+.bar-value-exp {
+    display: none
+}
+
+#cvo-toolbar {
+    width: 100%;
+    margin-bottom: 20px;
+    border-top: 1px solid #eee
+}
+
+.toolbar-global-controls {
+    height: 76px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px 0 #ccc
+}
+
+#cvo-toolbar .item {
+    float: left;
+    padding: 10px;
+    border-right: 1px solid #eee;
+    text-align: center;
+    color: #666;
+    min-width: 100px
+}
+
+#cvo-toolbar .item .options {
+    margin-top: 7px
+}
+
+#cvo-toolbar span.color {
+    height: 22px;
+    width: 22px;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 0 3px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    text-align: center;
+    vertical-align: middle
+}
+
+#cvo-toolbar span.color .fa {
+    color: #fff;
+    font-size: 16px;
+    line-height: 22px;
+    display: none
+}
+
+#cvo-toolbar span.color.active .fa {
+    display: inline-block
+}
+
+#font-selector {
+    background: 0 0;
+    border: 1px solid #ddd;
+    color: #999;
+    padding: 4px
+}
+
+#cvo-toolbar span.fontsize.active,#cvo-toolbar span.line-height.active {
+    background-color: #666;
+    color: #fff
+}
+
+#cvo-toolbar span.fontsize,#cvo-toolbar span.line-height {
+    display: block;
+    float: left;
+    margin: 0 2px;
+    border-radius: 50%;
+    height: 24px;
+    width: 24px;
+    line-height: 23px;
+    cursor: pointer
+}
+
+#cvo-toolbar .item {
+    float: left;
+    padding: 10px;
+    border-right: 1px solid #eee;
+    text-align: center;
+    color: #666;
+    min-width: 100px
+}
+
+.btn-topcv-primary {
+    background-color: #232f87;
+    color: #fff!important
+}
+
+#cvo-toolbar .item.button .title {
+    margin-bottom: 5px
+}
+
+#cvo-toolbar .item.button .fa {
+    font-size: 26px
+}
+
+.btn-topcv-primary:active,.btn-topcv-primary:focus,.btn-topcv-primary:hover {
+    background-color: #ff9a00;
+    cursor: pointer
+}
+
+#cvo-toolbar span.color:hover .fa {
+    display: inline-block
+}
+
+#cvo-toolbar span.fontsize:hover,#cvo-toolbar span.line-height:hover {
+    background-color: #666
+}
+
+#cvo-toolbar span.fontsize:hover .fa,#cvo-toolbar span.line-height:hover .fa {
+    color: #fff
+}
+
+#cvo-toolbar span.fontsize:nth-child(1),#cvo-toolbar span.line-height:nth-child(1) {
+    font-size: 10px
+}
+
+#cvo-toolbar span.fontsize:nth-child(3),#cvo-toolbar span.line-height:nth-child(3) {
+    font-size: 18px
+}
+
+.bar-exp {
+    width: 100%;
+    background: #959595;
+    height: 8px;
+    float: right;
+    margin-bottom: 12px
+}
+
+.bar-exp div {
+    float: right;
+    height: 8px;
+    background: #cd3301;
+    max-width: 100%;
+}
+
+.bar-value-exp {
+    width: 100%;
+    float: right
+}
+
+p.skill-name input {
+    border-bottom: 0;
+    font-size: 14px;
+    border: 0
+}
+
+#cv-right .icoweb i.fa {
+    color: #cd3301;
+    font-size: 21px;
+    float: left;
+    margin-top: 5px
+}
+
+.bar-value-exp input[type=text] {
+    width: 100%;
+    padding: 5px;
+    border-radius: 4px;
+    color: #fff
+}
+
+#cv-title.non-printable {
+    width: 790px
+}
+
+#imageEditorWraper {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(155,155,155,.9);
+    z-index: 22222222
+}
+
+#imageEditorWraper .container {
+    padding: 0;
+    min-height: 300px;
+    margin: 0 auto;
+    margin-top: 80px;
+    background-color: #fff;
+    overflow: hidden;
+    width: 750px;
+    text-align: center
+}
+
+#imageEditorWraper h3 {
+    width: 100%;
+    padding: 5px;
+    background-color: #0066b2;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 0
+}
+
+#imageEditorWraper .editor-col-left {
+    position: relative;
+    overflow: hidden;
+    width: 450px
+}
+
+#imageEditorWraper .editor-col-left,#imageEditorWraper .editor-col-right {
+    text-align: center;
+    float: left
+}
+
+#imageEditorWraper .editor-col-right {
+    width: 300px
+}
+
+#imageEditorWraper h4 {
+    padding-top: 10px;
+    font-weight: 400;
+    height: unset;
+    width: unset;
+    line-height: unset;
+    background-color: #fff
+}
+
+#imageEditorWraper .imageEditor {
+    padding: 10px;
+    width: 450px;
+    height: 230px;
+    padding-bottom: 0;
+    overflow: hidden
+}
+
+#imageEditorWraper .edit-image-btns,#imageEditorWraper .imageEditor {
+    display: none
+}
+
+.image-controls {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    display: none
+}
+
+#imageEditorWraper .loadingShow {
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    padding-top: 100px;
+    top: 0;
+    left: 0;
+    background-color: rgba(255,255,255,.9);
+    color: #169f81;
+    font-size: 16px
+}
+
+.btn-choose-image {
+    display: inline-block;
+    height: 190px;
+    vertical-align: middle;
+    line-height: 60px;
+    margin-top: 10px;
+    width: 90%;
+    color: #999;
+    border: 2px dashed #0b85a1
+}
+
+.btn-choose-image i {
+    font-size: 50px;
+    margin-top: 50px
+}
+
+.image-control-group {
+    display: inline-block;
+    margin-right: 20px;
+    border-radius: 3px
+}
+
+.image-control-group .image-control-btn {
+    display: inline-block;
+    cursor: pointer;
+    min-width: 30px;
+    padding: 6px 12px;
+    border: 1px solid #efefef;
+    border-right: 0;
+    font-size: 14px;
+    background: #fff
+}
+
+#imageEditorWraper .loadingShow i {
+    font-size: 50px
+}
+
+#imageEditorWraper .imageEditorControls {
+    padding: 10px;
+    width: 300px;
+    text-align: center
+}
+
+#imageEditorWraper .img-edit-preview {
+    width: 160px;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto
+}
+
+#imageEditorWraper .img-edit-preview img {
+    width: 100%
+}
+
+#imageEditorWraper .btn-change-image {
+    width: 76px;
+    background-color: #4a8cf7;
+    margin-right: 8px
+}
+
+#imageEditorWraper .btn-remove-image {
+    background-color: red;
+    width: 76px
+}
+
+#imageEditorWraper .btn-save-image {
+    width: 160px;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    background-color: #0066b2;
+    color: #fff;
+    border: 0
+}
+
+#imageEditorWraper .btn-close-image-editor {
+    margin-top: 5px;
+    display: block;
+    font-size: 14px;
+    text-decoration: underline;
+    color: red
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    white-space: nowrap;
+    -webkit-clip-path: inset(50%);
+    clip-path: inset(50%);
+    border: 0
+}
+
+#imageEditorWraper .btn-change-image,#imageEditorWraper .btn-remove-image,#imageEditorWraper .btn-save-image {
+    border: 0;
+    display: inline-block;
+    color: #fff;
+    padding: 5px;
+    cursor: pointer;
+    margin-top: 3px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px
+}
+
+#imageEditorWraper .btn-change-image {
+    padding: 0
+}
+
+#cv-content .cvo-block {
+    position: relative;
+    padding: 5px 10px
+}
+
+#cv-content .head,#cv-right .h3 {
+    background: 0 0;
+    text-align: left
+}
+
+#cv-content h3 {
+    margin-bottom: 10px
+}
+
+#page-cv {
+    max-width: 790px;
+    float: left
+}
+
+#page-cv #cv-content span {
+    z-index: 998
+}
+
+#cv-content .exp-date {
+    float: right
+}
+
+#cvo-toolbar span.flag img {
+    height: 22px;
+    border: 1px solid #eee;
+    border-radius: 3px
+}
+
+#cvo-toolbar span.flag i.flag-selected {
+    display: none;
+    height: 14px;
+    width: 14px;
+    background-color: #1fbc89;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 2px;
+    right: -3px;
+    border: 2px solid #fff
+}
+
+#cvo-toolbar span.flag.active i.flag-selected {
+    display: block
+}
+
+#cvo-toolbar span.flag {
+    display: inline-block;
+    cursor: pointer;
+    margin: 0 3px;
+    position: relative
+}
+
+#cvo-toolbar span.flag i.flag-selected {
+    display: none;
+    height: 10px;
+    width: 10px;
+    background-color: #1fbc89;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -3px;
+    right: -3px;
+    border: 2px solid #fff
+}
+
+#form-cv {
+    background: #fff
+}
+
+.btn-cvo {
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    border: 0;
+    font-weight: 500;
+    color: #555;
+    margin: 0 5px;
+    transition: all .1s
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #02b5e1
+}
+
+.text-center {
+    text-align: center
+}
+
+#layout-editor-container {
+    display: none;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    z-index: 11000
+}
+
+#layout-editor {
+    width: 450px;
+    margin: 30px auto 0;
+    background-color: #fff
+}
+
+#layout-editor .group {
+    background-color: #efefef;
+    padding: 10px 15px 1px 14px;
+    margin-bottom: 10px;
+    border-radius: 3px
+}
+
+#layout-editor .bulk-actions {
+    margin-bottom: 15px
+}
+
+#layout-editor .bulk-actions a {
+    display: inline-block;
+    margin-right: 10px
+}
+
+#layout-editor .bulk-actions a:hover {
+    color: #108e65
+}
+
+#layout-editor .block {
+    background-color: #ccc;
+    padding: 10px 40px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    border-radius: 3px;
+    position: relative
+}
+
+#layout-editor .group.fixed .block .icon-order,#layout-editor .group.fixed .block .selector {
+    display: none
+}
+
+#layout-editor .block:hover {
+    background-color: #aaa
+}
+
+#layout-editor .block .icon-order {
+    position: absolute;
+    right: 8px;
+    top: 5px;
+    font-size: 28px;
+    color: #666;
+    cursor: pointer
+}
+
+#layout-editor .block .selector {
+    position: absolute;
+    left: 8px;
+    top: 12px;
+    font-size: 18px;
+    color: #666;
+    height: 20px;
+    width: 20px;
+    background-color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 20px
+}
+
+#layout-editor .block .selector .fa {
+    display: none
+}
+
+#layout-editor .block.active .selector .fa {
+    display: block
+}
+
+#layout-editor .ui-sortable-handle {
+    cursor: move
+}
+
+#layout-editor .guide {
+    border: 1px dashed #fcfcfc;
+    font-size: 14px;
+    line-height: 20px;
+    padding-left: 36px;
+    margin-bottom: 15px
+}
+
+#layout-editor ul.guide li {
+    list-style: circle
+}
+
+#layout-editor .action-bar {
+    background-color: #efefef;
+    width: 450px;
+    padding: 8px 0
+}
+
+#cv-form-text-editor {
+    width: 100%;
+}
+
+.editor-controls-wraper {
+    width: 210mm;
+    padding: 0;
+    box-shadow: 0 1px 2px 0 #ccc;
+    position: relative
+}
+
+.editor-controls {
+    color: #333;
+    background-color: #fff;
+    width: 210mm;
+    margin: 0 auto;
+    padding: 5px 0
+}
+
+.editor-control-group {
+    display: inline-block;
+    text-align: center;
+    margin-right: 20px;
+    border-radius: 3px
+}
+
+.editor-control {
+    float: left;
+    cursor: pointer;
+    min-width: 30px;
+    border: 1px solid #efefef;
+    border-right: 0
+}
+
+.editor-control-group .editor-control:last-child {
+    border-right: 1px solid #efefef
+}
+
+.disabled {
+    position: relative
+}
+
+.disabled:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    cursor: not-allowed;
+    z-index: 9
+}
+
+.disabled .editor-control {
+    color: #888;
+    cursor: not-allowed
+}
+
+.fx {
+    position: fixed;
+    top: 0;
+    z-index: 9999
+}
+
+.editor-control.actived {
+    background: #02b5e1;
+    color: #fff
+}
+
+@media(max-width: 415px) {
+    #cv-form-text-editor {
+        float: left;
+        width: 100%;
+        height: 93px
+    }
+}

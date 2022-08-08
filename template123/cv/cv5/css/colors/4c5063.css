@@ -1,0 +1,23 @@
+#cv-top {
+    width: 100%;
+    height: 454px;
+    background: url(hd2.png)no-repeat;
+    background-position: left;
+    background-size: 100% 100%;
+    overflow: hidden;
+    position: relative;
+}
+.all {
+    float: left;
+    clear: both;
+    width: 100%;
+    background: url(main2.png)no-repeat;
+    background-size: 100% 100%;
+}
+.footer {
+    background: url(ft2.png)no-repeat;
+    background-size: 100% 100%;
+    float: left;
+    height: 183px;
+    width: 100%;
+}
